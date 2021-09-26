@@ -1,4 +1,4 @@
-package ru.yusov.ap.config;
+package ru.yusov.app.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -13,7 +13,7 @@ import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
 @Configuration
-@ComponentScan("ru.yusov.ap")
+@ComponentScan("ru.yusov.app")
 @EnableWebMvc
 public class SpringConfig implements WebMvcConfigurer {
 

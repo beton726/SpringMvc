@@ -1,4 +1,4 @@
-package ru.yusov.ap.config;
+package ru.yusov.app.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
