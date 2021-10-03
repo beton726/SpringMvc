@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Commands</title>
+</head>
+<body>
+
+<p>Use only Get calls.</p>
+
+<p>/people/{id} - show one person. (GET)</p>
+
+<p>/people/new - create new person. (GET)</p>
+
+<p>/people/{id}/edit - change person. (GET)</p>
+
+<p>/people - show all person. (GET)</p>
+
+<p>/people - create new person. Call from "new.html". (POST)</p>
+
+<p>/people/{id} - update one person. Call from "edit.html". (PATCH)</p>
+
+<p>/people/{id} - delete one person. Call from "show.html". (DELETE)</p>
+
+<form th:method="GET" th:action="@{/people}">
+    <input type="submit" value="Return to page people."/>
+</form>
+
+</body>
+</html>
